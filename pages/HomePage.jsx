@@ -24,9 +24,6 @@ export default function HomePage({ onViewCards, wrapStyle }) {
         transition: "background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease",
       }}>
         <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.5rem", letterSpacing: "5px", color: "#e62429" }}>MARVEL</div>
-        <div style={{ display: "flex", gap: 28 }}>
-          {["Heroes", "Films", "Comics"].map(l => <button key={l} className="mnav-link">{l}</button>)}
-        </div>
         <button className="pill-btn" onClick={onViewCards} style={{ padding: "9px 22px", fontSize: "0.74rem" }}>View Cards</button>
       </nav>
 
@@ -40,7 +37,9 @@ export default function HomePage({ onViewCards, wrapStyle }) {
         <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.65rem", fontWeight: 600, letterSpacing: "5px", textTransform: "uppercase", color: "#e62429", marginBottom: 28, animation: "wordReveal 0.7s ease both" }}>Marvel Cinematic Universe</div>
         <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(4.5rem, 12vw, 9.5rem)", lineHeight: 0.88, letterSpacing: "2px", color: "#111", marginBottom: 28, position: "relative", zIndex: 1 }}>
           <span className="home-word" style={{ animationDelay: "0.08s" }}>Earth's</span>
+          <br></br>
           <span className="home-word" style={{ animationDelay: "0.18s", color: "#e62429" }}>Mightiest</span>
+          <br></br>
           <span className="home-word" style={{ animationDelay: "0.28s" }}>Heroes</span>
         </h1>
         <div style={{ width: 36, height: 2, background: "#e62429", borderRadius: 2, marginBottom: 28, animation: "lineGrow 0.7s cubic-bezier(0.22,1,0.36,1) 0.5s both" }} />

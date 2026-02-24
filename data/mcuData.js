@@ -62,7 +62,7 @@ export const characters = [
     powers: ["Near-limitless strength that grows with rage", "Virtually indestructible durability", "Rapid healing — can regenerate lost limbs", "Immunity to toxins, diseases and radiation", "Can survive in space (limited duration)", "Professor Hulk: genius intellect combined"],
     appearances: ["The Incredible Hulk (2008)", "The Avengers (2012)", "Age of Ultron (2015)", "Ragnarok (2017)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "That's my secret, Cap. I'm always angry.",
-    iamge: "/images/Hulk.jpg"
+    image: "images/Hulk.jpg"
   },
   {
     id: 6, name: "Spider-Man", alias: "Peter Parker",

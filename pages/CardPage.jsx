@@ -91,6 +91,13 @@ export default function CardPage({ onGoHome, wrapStyle }) {
         ))}
       </div>
 
+      <div style={{ position: "fixed", bottom: 50, left: "50%", transform: "translateX(-50%)", textAlign: "center", zIndex: 900, pointerEvents: "none" }}>
+          <div key={activeCard} style={{ animation: "cardLabelIn 0.36s cubic-bezier(0.22,1,0.36,1) both" }}>
+            <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.58rem", fontWeight: 500, letterSpacing: "3px", textTransform: "uppercase", color: "rgba(0,0,0,0.22)", marginBottom: 2 }}>{char.alias}</div>
+            <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.15rem", letterSpacing: "5px", color: "#111" }}>{char.name.toUpperCase()}</div>
+          </div>
+      </div>
+
       {selectedHero && <HeroDetailModal hero={selectedHero} onClose={() => setSelectedHero(null)} />}
     </div>
   );

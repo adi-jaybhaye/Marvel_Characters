@@ -10,6 +10,7 @@ export const characters = [
     powers: ["Powered armor with supersonic flight capability", "Repulsor ray weapons & energy blasts", "JARVIS/FRIDAY AI tactical systems", "Genius-level engineering & invention", "Nano-tech armor deployment (MK-85)", "Time travel via quantum tunnel design"],
     appearances: ["Iron Man (2008)", "The Avengers (2012)", "Iron Man 3 (2013)", "Age of Ultron (2015)", "Civil War (2016)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "I am Iron Man.",
+    image:"/images/iron-man.jpg"
   },
   {
     id: 2, name: "Captain America", alias: "Steve Rogers",

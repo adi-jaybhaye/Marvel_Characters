@@ -23,6 +23,7 @@ export const characters = [
     powers: ["Peak human strength, speed & agility via serum", "Vibranium shield — indestructible & ricochets perfectly", "Master tactician & battlefield commander", "Rapid cellular healing factor", "Worthy of lifting Mjolnir", "Expert in multiple martial arts"],
     appearances: ["The First Avenger (2011)", "The Avengers (2012)", "The Winter Soldier (2014)", "Age of Ultron (2015)", "Civil War (2016)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "I can do this all day.",
+    image: "/images/CaptainAmerica.jpg"
   },
   {
     id: 3, name: "Thor", alias: "Son of Odin",
@@ -35,6 +36,7 @@ export const characters = [
     powers: ["God-level superhuman strength & durability", "Lightning manipulation and generation", "Flight via Mjolnir & Stormbreaker", "All-Speak: understands all languages", "Immortality & accelerated healing", "Stormbreaker can summon the Bifrost Bridge"],
     appearances: ["Thor (2011)", "The Avengers (2012)", "The Dark World (2013)", "Age of Ultron (2015)", "Ragnarok (2017)", "Infinity War (2018)", "Endgame (2019)", "Love and Thunder (2022)"],
     quote: "I'm still worthy.",
+    image: "/images/Thor.jpg"
   },
   {
     id: 4, name: "Black Widow", alias: "Natasha Romanoff",

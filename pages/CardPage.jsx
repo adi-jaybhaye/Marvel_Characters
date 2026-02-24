@@ -70,7 +70,7 @@ export default function CardPage({ onGoHome, wrapStyle }) {
                   </div>
                   <div style={{ flex: 1, padding: "13px 15px 15px", display: "flex", flexDirection: "column", background: "#fff" }}>
                     <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.53rem", fontWeight: 500, letterSpacing: "2px", textTransform: "uppercase", color: "rgba(0,0,0,0.25)", marginBottom: 4 }}>{c.alias}</div>
-                    <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.45rem", letterSpacing: "1px", lineHeight: 1, color: "#111", marginBottom: 7 }}>{c.name}</div>
+                    <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.45rem", letterSpacing: "1px", lineHeight: 1, color: "#fff", marginBottom: 7 }}>{c.name}</div>
                     <div style={{ width: 18, height: 1.5, background: c.accent, borderRadius: 1, marginBottom: 8 }} />
                     <div style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.58rem", color: "rgba(0,0,0,0.3)", lineHeight: 1.6, marginBottom: "auto" }}>{c.power}</div>
                     {isActive && <button className="profile-btn" onClick={e => { e.stopPropagation(); setSelectedHero(c); }}>View Profile</button>}

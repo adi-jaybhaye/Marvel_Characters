@@ -51,14 +51,6 @@ export default function HomePage({ onViewCards, wrapStyle }) {
         </div>
       </section>
 
-      <section style={{ padding: "110px clamp(24px, 10vw, 140px)" }}>
-        <Reveal><div style={{ textAlign: "center", marginBottom: 64 }}><div style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.62rem", fontWeight: 600, letterSpacing: "5px", textTransform: "uppercase", color: "#e62429", marginBottom: 12 }}>By The Numbers</div><h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(1.8rem, 4vw, 3rem)", letterSpacing: "2px", color: "#111" }}>The Scale of the MCU</h2></div></Reveal>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", border: "1px solid rgba(0,0,0,0.06)", borderRadius: 16, overflow: "hidden" }}>
-          {MCU_FACTS.map((f, i) => (
-            <Reveal key={i} delay={i * 0.07}><div className="stat-cell" style={{ padding: "44px 28px", textAlign: "center", borderRight: i < MCU_FACTS.length - 1 ? "1px solid rgba(0,0,0,0.06)" : "none", background: "#fff", cursor: "default" }}><div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "3.4rem", color: "#e62429", lineHeight: 1, marginBottom: 8 }}>{f.num}</div><div style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.68rem", fontWeight: 500, letterSpacing: "2.5px", textTransform: "uppercase", color: "rgba(0,0,0,0.32)" }}>{f.label}</div></div></Reveal>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GlobalStyles from "../styles/GlobalStyles"; 
+import GlobalStyles from "../styles/GLobalStyles"; 
 import HomePage from "../pages/HomePage";
 import CardPage from "../pages/CardPage";
 

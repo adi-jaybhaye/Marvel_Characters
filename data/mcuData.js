@@ -10,7 +10,7 @@ export const characters = [
     powers: ["Powered armor with supersonic flight capability", "Repulsor ray weapons & energy blasts", "JARVIS/FRIDAY AI tactical systems", "Genius-level engineering & invention", "Nano-tech armor deployment (MK-85)", "Time travel via quantum tunnel design"],
     appearances: ["Iron Man (2008)", "The Avengers (2012)", "Iron Man 3 (2013)", "Age of Ultron (2015)", "Civil War (2016)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "I am Iron Man.",
-    image:"/images/iron-man.jpg"
+    image:"/iron-man.jpg"
   },
   {
     id: 2, name: "Captain America", alias: "Steve Rogers",
@@ -23,7 +23,7 @@ export const characters = [
     powers: ["Peak human strength, speed & agility via serum", "Vibranium shield — indestructible & ricochets perfectly", "Master tactician & battlefield commander", "Rapid cellular healing factor", "Worthy of lifting Mjolnir", "Expert in multiple martial arts"],
     appearances: ["The First Avenger (2011)", "The Avengers (2012)", "The Winter Soldier (2014)", "Age of Ultron (2015)", "Civil War (2016)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "I can do this all day.",
-    image: "/images/CaptainAmerica.jpg"
+    image: "/CaptainAmerica.jpg"
   },
   {
     id: 3, name: "Thor", alias: "Son of Odin",
@@ -36,7 +36,7 @@ export const characters = [
     powers: ["God-level superhuman strength & durability", "Lightning manipulation and generation", "Flight via Mjolnir & Stormbreaker", "All-Speak: understands all languages", "Immortality & accelerated healing", "Stormbreaker can summon the Bifrost Bridge"],
     appearances: ["Thor (2011)", "The Avengers (2012)", "The Dark World (2013)", "Age of Ultron (2015)", "Ragnarok (2017)", "Infinity War (2018)", "Endgame (2019)", "Love and Thunder (2022)"],
     quote: "I'm still worthy.",
-    image: "/images/Thor.jpg"
+    image: "/Thor.jpg"
   },
   {
     id: 4, name: "Black Widow", alias: "Natasha Romanoff",
@@ -49,7 +49,7 @@ export const characters = [
     powers: ["Master of Karate, Judo & Aikido", "Widow's Bite: 30,000-volt electroshock weapons", "Espionage, infiltration & deep-cover deception", "Peak human agility & acrobatics", "Multi-lingual master interrogator", "Biotechnology-enhanced physiology"],
     appearances: ["Iron Man 2 (2010)", "The Avengers (2012)", "The Winter Soldier (2014)", "Age of Ultron (2015)", "Civil War (2016)", "Infinity War (2018)", "Endgame (2019)", "Black Widow (2021)"],
     quote: "Whatever it takes.",
-    image: "/images/BlackWidow.jpg"
+    image: "/BlackWidow.jpg"
   },
   {
     id: 5, name: "Hulk", alias: "Bruce Banner",
@@ -62,7 +62,7 @@ export const characters = [
     powers: ["Near-limitless strength that grows with rage", "Virtually indestructible durability", "Rapid healing — can regenerate lost limbs", "Immunity to toxins, diseases and radiation", "Can survive in space (limited duration)", "Professor Hulk: genius intellect combined"],
     appearances: ["The Incredible Hulk (2008)", "The Avengers (2012)", "Age of Ultron (2015)", "Ragnarok (2017)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "That's my secret, Cap. I'm always angry.",
-    image: "images/Hulk.jpg"
+    image: "/Hulk.jpg"
   },
   {
     id: 6, name: "Spider-Man", alias: "Peter Parker",
@@ -75,7 +75,7 @@ export const characters = [
     powers: ["Wall-crawling on any surface", "Spider-Sense: precognitive danger detection", "Proportional spider strength — lifts 10+ tons", "Web-shooters with polymer webbing", "Iron Spider armor with nano-tech waldoes", "Enhanced agility, reflexes & balance"],
     appearances: ["Civil War (2016)", "Homecoming (2017)", "Infinity War (2018)", "Endgame (2019)", "Far From Home (2019)", "No Way Home (2021)"],
     quote: "With great power comes great responsibility.",
-    image: "/images/SpiderMan.jpg"
+    image: "/SpiderMan.jpg"
   },
   {
     id: 7, name: "Doctor Strange", alias: "Stephen Strange",
@@ -88,7 +88,7 @@ export const characters = [
     powers: ["Master of the Mystic Arts", "Time manipulation with the Eye of Agamotto", "Portal creation via Sling Ring", "Astral projection", "Matter transformation & conjuration", "Eldritch energy shields and weapons"],
     appearances: ["Doctor Strange (2016)", "Ragnarok (2017)", "Infinity War (2018)", "Endgame (2019)", "No Way Home (2021)", "Multiverse of Madness (2022)"],
     quote: "I went forward in time to view alternate futures.",
-    image: "/images/DoctorStrange.jpg"
+    image: "/DoctorStrange.jpg"
   },
   {
     id: 8, name: "Black Panther", alias: "T'Challa",
@@ -101,7 +101,7 @@ export const characters = [
     powers: ["Heart-Shaped Herb: peak human physiology", "Vibranium nanotech suit — absorbs kinetic energy", "Enhanced senses: hearing, smell, sight", "Master of Zulu, Capoeira, Dambe", "Brilliant tactician and head of state", "Kinetic energy released as devastating blasts"],
     appearances: ["Civil War (2016)", "Black Panther (2018)", "Infinity War (2018)", "Endgame (2019)"],
     quote: "Wakanda forever.",
-    image: "/images/BlackPanther.jpg"
+    image: "/BlackPanther.jpg"
   },
 ];
 
